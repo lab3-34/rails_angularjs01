@@ -1,28 +1,16 @@
-== README
+# アプリ
+勉強用の名前登録簡易アプリ
+参考：[APIサーバを Rails、フロントエンドを AngularJS で開発する](http://qiita.com/hkusu/items/b34f684b49751d9c9abd)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## memo
+* gruntビルド
+grunt build -f
 
-Things you may want to cover:
+* API有効化
+./bin/rails s
 
-* Ruby version
+* gruntサーバー起動
+grunt serve
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* 起動サーバー
+http://127.0.0.1:3000/
