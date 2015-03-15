@@ -1,12 +1,16 @@
-# front
+# アプリ
+勉強用の名前登録簡易アプリ
+参考：[APIサーバを Rails、フロントエンドを AngularJS で開発する](http://qiita.com/hkusu/items/b34f684b49751d9c9abd)
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.11.1.
+## memo
+* gruntビルド
+grunt build -f
 
-## Build & development
+* API有効化
+./bin/rails s
 
-Run `grunt` for building and `grunt serve` for preview.
+* gruntサーバー起動
+grunt serve
 
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
+* 起動サーバー
+http://127.0.0.1:3000/
